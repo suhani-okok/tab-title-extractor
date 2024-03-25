@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Title Extractor",
+    "version": "1.0",
+    "description": "A Chrome extension to display the title of the current tab.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        
+        "48": "48icon.png",
+        "128": "128icon.png"
+      }
+    },
+    "permissions": ["activeTab"]
+  }
